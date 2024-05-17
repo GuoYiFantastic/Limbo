@@ -5,6 +5,9 @@
 #include<sstream>
 #include<iostream>
 
+#ifndef OPB_WRITER
+#define OPB_WRITER
+
 
 /// @brief class for writing x.opb file
 /// @author Guo Yifan
@@ -92,3 +95,5 @@ class Opb
         return ss.str();
     }
 };
+
+#endif
